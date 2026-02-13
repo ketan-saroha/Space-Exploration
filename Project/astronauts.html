@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauts & Missions - SPACE EXPLORER</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo-text rounded-pill p-2" style="color: rgb(13, 110, 253); background-color: rgba(126, 126, 126, 0.429);" href="index.html">
+                <i class="fas fa-rocket me-2"></i>SPACE EXPLORER
+            </a>
+            <button class="navbar-toggler" style="background-color: rgba(126, 126, 126, 0.429);" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto rounded-5 p-2" style="background-color: rgba(238, 238, 238, 0.808);">
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="explore.html">Explore</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="technology.html">Technology</a></li>
+                    <li class="nav-item"><a class="nav-link active rounded-3" style="color: rgb(13, 110, 253); background-color: rgba(218, 218, 218, 0.674);" href="astronauts.html">Astronauts</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: rgb(13, 110, 253)" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header" style="padding-top: 60px">
+        <div class="container">
+            <h1 class="display-2 fw-bold">Space Pioneers</h1>
+            <p class="lead">Celebrating the heroes who dared to venture beyond Earth</p>
+        </div>
+    </div>
+
+    <!-- Famous Astronauts Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3"><i class="fas fa-user-astronaut me-3"></i>Legendary Astronauts</h2>
+                <p class="lead text-muted">The pioneers who made history in space exploration</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" src="./images/yuri_astro.jpg" class="card-img-top" alt="Yuri Gagarin">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Yuri Gagarin</h5>
+                            <p class="text-muted mb-3">First Human in Space</p>
+                            <p class="card-text">On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first human to journey into outer space, orbiting Earth once in the Vostok 1 spacecraft. His historic 108-minute flight opened the door to human space exploration.</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Mission:</strong> Vostok 1</li>
+                                <li><strong>Date:</strong> April 12, 1961</li>
+                                <li><strong>Duration:</strong> 108 minutes</li>
+                                <li><strong>Country:</strong> Soviet Union</li>
+                            </ul>
+                            <span class="badge bg-primary">Pioneer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" width="100%" src="./images/niel_astro.jpg" class="card-img-top" alt="Neil Armstrong">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Neil Armstrong</h5>
+                            <p class="text-muted mb-3">First Person on the Moon</p>
+                            <p class="card-text">As commander of Apollo 11, Neil Armstrong became the first person to set foot on the Moon on July 20, 1969, famously declaring it "one small step for man, one giant leap for mankind."</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Mission:</strong> Apollo 11</li>
+                                <li><strong>Date:</strong> July 20, 1969</li>
+                                <li><strong>Duration:</strong> 8 days</li>
+                                <li><strong>Country:</strong> United States</li>
+                            </ul>
+                            <span class="badge bg-warning text-dark">Moonwalker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" src="./images/sally_astro.webp" class="card-img-top" alt="Sally Ride">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Sally Ride</h5>
+                            <p class="text-muted mb-3">First American Woman in Space</p>
+                            <p class="card-text">Sally Ride made history on June 18, 1983, as the first American woman to fly in space aboard the Space Shuttle Challenger. She later flew on STS-41-G in 1984 and became an advocate for science education.</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Mission:</strong> STS-7</li>
+                                <li><strong>Date:</strong> June 18, 1983</li>
+                                <li><strong>Flights:</strong> 2</li>
+                                <li><strong>Country:</strong> United States</li>
+                            </ul>
+                            <span class="badge bg-success">Trailblazer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" width="100%" src="./images/buzz_astro.webp" class="card-img-top" alt="Buzz Aldrin">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Buzz Aldrin</h5>
+                            <p class="text-muted mb-3">Second Person on the Moon</p>
+                            <p class="card-text">Lunar Module Pilot on Apollo 11, Buzz Aldrin followed Neil Armstrong onto the Moon's surface, spending over 21 hours on the lunar surface and conducting crucial experiments.</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Mission:</strong> Apollo 11</li>
+                                <li><strong>Date:</strong> July 20, 1969</li>
+                                <li><strong>Moonwalks:</strong> 1</li>
+                                <li><strong>Country:</strong> United States</li>
+                            </ul>
+                            <span class="badge bg-warning text-dark">Moonwalker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" src="./images/valentina_astro.jpg" class="card-img-top" alt="Valentina Tereshkova">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Valentina Tereshkova</h5>
+                            <p class="text-muted mb-3">First Woman in Space</p>
+                            <p class="card-text">On June 16, 1963, Valentina Tereshkova became the first woman to fly in space aboard Vostok 6. She orbited Earth 48 times over three days, logging more flight time than all American astronauts combined at that point.</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Mission:</strong> Vostok 6</li>
+                                <li><strong>Date:</strong> June 16, 1963</li>
+                                <li><strong>Orbits:</strong> 48</li>
+                                <li><strong>Country:</strong> Soviet Union</li>
+                            </ul>
+                            <span class="badge bg-success">Pioneer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card astronaut-card h-100">
+                        <img height="300px" src="./images/chris_astro.jpg" class="card-img-top" alt="Chris Hadfield">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Chris Hadfield</h5>
+                            <p class="text-muted mb-3">ISS Commander & Space Educator</p>
+                            <p class="card-text">Canadian astronaut who served as commander of the International Space Station and became famous for his engaging social media presence, including performing "Space Oddity" in orbit.</p>
+                            <ul class="list-unstyled small mb-3">
+                                <li><strong>Missions:</strong> 3 flights</li>
+                                <li><strong>ISS Command:</strong> Expedition 35</li>
+                                <li><strong>Spacewalks:</strong> 2</li>
+                                <li><strong>Country:</strong> Canada</li>
+                            </ul>
+                            <span class="badge bg-info">Educator</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Historic Missions Section -->
+    <section class="py-5 section-alternate">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3"><i class="fas fa-shuttle-space me-3"></i>Historic Space Missions</h2>
+                <p class="lead text-muted">Groundbreaking missions that changed our understanding of space</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img width="100%" src="./images/apollo_astro.jpg" class="img-fluid h-100 object-fit-cover" alt="Apollo 11">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Apollo 11 - Moon Landing</h5>
+                                    <p class="text-muted mb-2">July 16-24, 1969</p>
+                                    <p class="card-text">The first crewed mission to land on the Moon. Neil Armstrong and Buzz Aldrin spent 21 hours on the lunar surface while Michael Collins orbited above.</p>
+                                    <span class="badge bg-warning text-dark">Moonwalkers: 2</span>
+                                    <span class="badge bg-primary ms-2">Historic</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/apollo13_astro.webp" class="img-fluid h-100 object-fit-cover" alt="Apollo 13">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Apollo 13 - Survival Mission</h5>
+                                    <p class="text-muted mb-2">April 11-17, 1970</p>
+                                    <p class="card-text">Intended as the third lunar landing, Apollo 13 became a dramatic rescue mission after an oxygen tank explosion. The crew safely returned to Earth through incredible teamwork.</p>
+                                    <span class="badge bg-success">Successful Return</span>
+                                    <span class="badge bg-danger ms-2">Crisis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img width="100%" src="./images/voyager_astro.jpg" class="img-fluid h-100 object-fit-cover" alt="Voyager">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Voyager Program</h5>
+                                    <p class="text-muted mb-2">Launched 1977</p>
+                                    <p class="card-text">Twin spacecraft that explored Jupiter, Saturn, Uranus, and Neptune. Voyager 1 is now the most distant human-made object, in interstellar space.</p>
+                                    <span class="badge bg-info">Ongoing</span>
+                                    <span class="badge bg-primary ms-2">Interstellar</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/iss_astro.webp" class="img-fluid h-100 object-fit-cover" alt="ISS Assembly">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">ISS Assembly & Operations</h5>
+                                    <p class="text-muted mb-2">1998 - Present</p>
+                                    <p class="card-text">The largest space station ever built, a collaborative project of 15 nations. Has been continuously occupied since November 2000.</p>
+                                    <span class="badge bg-success">Operational</span>
+                                    <span class="badge bg-primary ms-2">International</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/mars_astro.webp" class="img-fluid h-100 object-fit-cover" alt="Mars Rovers">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Mars Rover Missions</h5>
+                                    <p class="text-muted mb-2">1997 - Present</p>
+                                    <p class="card-text">Series of robotic rovers exploring Mars, including Sojourner, Spirit, Opportunity, Curiosity, and Perseverance. Searching for signs of past life and studying Martian geology.</p>
+                                    <span class="badge bg-danger">Mars</span>
+                                    <span class="badge bg-success ms-2">Active</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card mission-card h-100">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/commercial_astro.webp" class="img-fluid h-100 object-fit-cover" alt="SpaceX Crew">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold">Commercial Crew Program</h5>
+                                    <p class="text-muted mb-2">2020 - Present</p>
+                                    <p class="card-text">SpaceX's Crew Dragon restored American capability to launch astronauts from US soil, marking the beginning of commercial human spaceflight.</p>
+                                    <span class="badge bg-info">Commercial</span>
+                                    <span class="badge bg-success ms-2">Operational</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Spacewalks Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="section-title text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3"><i class="fas fa-satellite me-3"></i>Notable Spacewalks</h2>
+                <p class="lead text-muted">Venturing outside the spacecraft into the void</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card spacewalk-card h-100">
+                        <div class="card-body">
+                            <div class="spacewalk-icon mb-3">
+                                <i class="fas fa-user-astronaut fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">First Spacewalk</h5>
+                            <p class="text-muted mb-2">Alexei Leonov - March 18, 1965</p>
+                            <p class="card-text">Soviet cosmonaut Alexei Leonov performed the first-ever spacewalk, spending 12 minutes outside the Voskhod 2 spacecraft. His suit inflated dangerously, making re-entry nearly impossible.</p>
+                            <span class="badge bg-primary">Historic First</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card spacewalk-card h-100">
+                        <div class="card-body">
+                            <div class="spacewalk-icon mb-3">
+                                <i class="fas fa-user-astronaut fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">First American Spacewalk</h5>
+                            <p class="text-muted mb-2">Ed White - June 3, 1965</p>
+                            <p class="card-text">Ed White became the first American to walk in space during Gemini 4, spending 23 minutes floating above Earth. He was so thrilled that ground control had to order him back inside.</p>
+                            <span class="badge bg-primary">Gemini 4</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card spacewalk-card h-100">
+                        <div class="card-body">
+                            <div class="spacewalk-icon mb-3">
+                                <i class="fas fa-user-astronaut fa-3x"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">First All-Female Spacewalk</h5>
+                            <p class="text-muted mb-2">Christina Koch & Jessica Meir - October 2019</p>
+                            <p class="card-text">NASA astronauts Christina Koch and Jessica Meir conducted the first all-female spacewalk outside the ISS, replacing a faulty battery charge-discharge unit.</p>
+                            <span class="badge bg-success">Milestone</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-5 section-alternate">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold mb-3">Space Exploration By The Numbers</h2>
+            </div>
+            <div class="row text-center g-4">
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-user-astronaut fa-3x mb-3"></i>
+                        <h3 class="display-4 fw-bold">600+</h3>
+                        <p class="lead">Astronauts</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-moon fa-3x mb-3"></i>
+                        <h3 class="display-4 fw-bold">12</h3>
+                        <p class="lead">Moonwalkers</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-shuttle-space fa-3x mb-3"></i>
+                        <h3 class="display-4 fw-bold">135</h3>
+                        <p class="lead">Shuttle Flights</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="stat-card">
+                        <i class="fas fa-walking fa-3x mb-3"></i>
+                        <h3 class="display-4 fw-bold">570+</h3>
+                        <p class="lead">Spacewalks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3"><i class="fas fa-rocket me-2"></i>SPACE EXPLORER</h5>
+                    <p class="mb-3">Your gateway to understanding the cosmos. Exploring the universe one discovery at a time.</p>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="me-3"><i class="fab fa-youtube fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html">Home</a></li>
+                        <li class="mb-2"><a href="explore.html">Explore</a></li>
+                        <li class="mb-2"><a href="gallery.html">Gallery</a></li>
+                        <li class="mb-2"><a href="technology.html">Technology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold mb-3">Resources</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="astronauts.html">Astronauts</a></li>
+                        <li class="mb-2"><a href="about.html">About Us</a></li>
+                        <li class="mb-2"><a href="contact.html">Contact</a></li>
+                        <li class="mb-2"><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h5 class="fw-bold mb-3">Newsletter</h5>
+                    <p class="mb-3">Stay updated with the latest space discoveries and missions.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email">
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2026 Space Explorer. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Made with <i class="fas fa-heart text-danger"></i> for space enthusiasts</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
